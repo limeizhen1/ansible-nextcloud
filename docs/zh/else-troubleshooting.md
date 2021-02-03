@@ -43,3 +43,6 @@ df -lh
 free -lh
 ```
 
+#### 在 Nextcloud 中配置好 Onlyoffice Document server 后，能预览，但新建文件时，报错 cURL error 3: <url> malformed
+
+Nextcloud 中同时安装了 ONLYOFFICE 和 Office Online，在新建文件时会报错 cURL error 3: <url> malformed，将 Office Online 禁用即可
